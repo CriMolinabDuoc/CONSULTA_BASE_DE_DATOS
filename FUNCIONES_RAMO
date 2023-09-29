@@ -1,0 +1,3 @@
+TO_CHAR(SYSDATE,'DAY, MONTH DD "of" YYYY') "Fecha en Ingles sin fm",
+TO_CHAR(SYSDATE+4,'DY, DD/MON/YY') "Fecha+4 Abreviada",
+TO_CHAR(SYSDATE,'Month.YYYY') ". Mes y Año sin fm",
